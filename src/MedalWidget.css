@@ -1,0 +1,127 @@
+
+.medal-widget table {
+  border-collapse: collapse;
+  font-size: 17px;
+}
+
+.medal-widget thead {
+  border-bottom: 2px solid black;
+  cursor: default;
+}
+
+.medal-widget tbody > tr {
+  border-bottom: 1px solid black;
+}
+
+.medal-widget tr {
+  height: 44px;
+}
+
+.medal-widget .title {
+  padding: 10px;
+}
+
+.medal-widget .sorting {
+  border-top: 2px solid black;
+}
+
+.medal-widget .id {
+  width: 40px;
+  text-align: right;
+}
+
+.medal-widget .flag {
+  width: 70px;
+}
+
+.medal-widget .country {
+  width: 140px;
+}
+
+.medal-widget .medal {
+  text-align: center;
+  width: 60px;
+}
+
+.medal-widget .bold {
+  font-weight: bold;
+}
+
+.medal-widget .dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.medal-widget .goldDot {
+  background-color: #f3d255;
+}
+
+.medal-widget .silverDot {
+  background-color: #9ca5ab;
+}
+
+.medal-widget .bronzeDot {
+  background-color: #7f532d;
+}
+
+.medal-widget .flagSprite {
+  background-image: url('https://s3-us-west-2.amazonaws.com/reuters.medals-widget/flags.png');
+  background-repeat: no-repeat;
+  height: 17px;
+  margin-left: 20px;
+}
+
+.medal-widget .flag-usa {
+  background-position-y: -204px;
+}
+
+.medal-widget .flag-nor {
+  background-position-y: -136px;
+}
+
+.medal-widget .flag-rus {
+  background-position-y: -153px;
+}
+
+.medal-widget .flag-ned {
+  background-position-y: -119px;
+}
+
+.medal-widget .flag-fra {
+  background-position-y: -68px;
+}
+
+.medal-widget .flag-swe {
+  background-position-y: -187px;
+}
+
+.medal-widget .flag-ita {
+  background-position-y: -102px;
+}
+
+.medal-widget .flag-can {
+  background-position-y: -34px;
+}
+
+.medal-widget .flag-sui {
+  background-position-y: -170px;
+}
+
+.medal-widget .flag-blr {
+  background-position-y: -17px;
+}
+
+.medal-widget .flag-ger {
+  background-position-y: -85px;
+}
+
+.medal-widget .flag-aut {
+  background-position-y: 0px;
+}
+
+.medal-widget .flag-chn {
+  background-position-y: -51px;
+}
