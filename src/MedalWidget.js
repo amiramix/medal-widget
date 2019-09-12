@@ -95,7 +95,7 @@ function MedalWidget({ order = 'gold' }) {
   }, [data, sortOrder]);
 
   return (
-    <div className="medal-widget">
+    <div className='medal-widget'>
       {isError && <div>Something went wrong ...</div>}
 
       {isLoading ? (
@@ -145,3 +145,6 @@ MedalWidget.initialize = (id, order) =>
   ReactDOM.render(<MedalWidget order={order} />, document.getElementById(id));
 
 export default MedalWidget;
+
+// Exports for tests
+export { addTotal, sortRows };
